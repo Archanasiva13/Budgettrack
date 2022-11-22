@@ -1,7 +1,5 @@
 import React, { createContext, useReducer } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-
-const MyContext = React.createContext(defaultValue);
 // 5. The reduceer - this is used to update the state, based on the action
 export const AppReducer = (state, action) => {
 	switch (action.type) {
